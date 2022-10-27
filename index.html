@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>tinCater</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Stylesheets -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Favicon  -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/675709e2b0.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap Scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <section class="colored-section" id="title">
+      <div class="container-fluid">
+        <!-- Nav Bar -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="">tinCater</a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cta">Download</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Title -->
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="bigger-heading">
+              Just meet new and interesting cats in your neighbourhood!
+            </h1>
+            <button type="button" class="btn btn-dark btn-lg download-button">
+              <i class="fa-brands fa-apple"></i> Download
+            </button>
+
+            <button
+              type="button"
+              class="btn btn-outline-light btn-lg download-button"
+            >
+              <i class="fa-brands fa-google-play"></i>
+              Download
+            </button>
+          </div>
+
+          <div class="col-lg-6">
+            <img
+              class="title-image"
+              src="images/iphone6-kitty.png"
+              alt="Iphone with cat image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+
+    <section class="white-section" id="features">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="feature-box col-lg-4 py-4">
+            <i class="icon fa-solid fa-cat fa-4x"></i>
+            <h3 class="feature-title">Top-shelf Cats</h3>
+            <p>Cats in our app are the best and the prettiest.</p>
+          </div>
+
+          <div class="feature-box col-lg-4 py-4">
+            <i class="icon fa-solid fa-heart fa-4x"></i>
+            <h3 class="feature-title">Guarantee to work</h3>
+            <p>
+              If you don't find the love of your cat's, we will give your money
+              back.
+            </p>
+          </div>
+
+          <div class="feature-box col-lg-4 py-4">
+            <i class="icon fa-regular fa-face-smile fa-4x"></i>
+            <h3 class="feature-title">Simplicity of use</h3>
+            <p>The app is easy to use, even your cat or kid could use it.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+
+    <section class="colored-section" id="testimonials">
+      <div
+        id="testimonial-carousel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active container-fluid">
+            <h2 class="testimonial-text">
+              I don't have to play with myself anymore. I've found the best
+              Birman Cat on tinCater. I'm so happy. Meow.
+            </h2>
+            <img
+              class="testimonial-image"
+              src="images/cute-kitty.jpg"
+              alt="Cat Profile"
+            />
+            <em>Kenzo, Warsaw</em>
+          </div>
+          <div class="carousel-item container-fluid">
+            <h2 class="testimonial-text">
+              My lovely cat was so lonely until I discovered the tinCater app,
+              he've found the friend to play with for years. I believe.
+            </h2>
+            <img
+              class="testimonial-image"
+              src="images/lady-picture.jpg"
+              alt="Lady Profile"
+            />
+            <em>Paulina, Wroclaw</em>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#testimonial-carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#testimonial-carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Press -->
+
+    <section class="colored-section" id="press">
+      <img class="press-logo" src="images/gbm.jpg" alt="gbm-logo" />
+      <img class="press-logo" src="images/light-brand.png" alt="lb-logo" />
+      <img class="press-logo" src="images/yum.png" alt="yum-logo" />
+      <img class="press-logo" src="images/com-brand.png" alt="com-logo" />
+    </section>
+
+    <!-- Pricing -->
+
+    <section class="white-section" id="pricing">
+      <h2 class="section-heading">A Pricing Panel for Your Cat's Happiness</h2>
+      <p>So simple and affordable price plans for your and your cat.</p>
+
+      <div class="row g-4 py-4 px-3">
+        <div class="col-lg-4 col-md-6">
+          <div class="card h-100">
+            <div class="card-header">
+              <h3>Persian</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">Free</h2>
+              <p>6 Matches Per Day</p>
+              <p>12 Messages Per Day</p>
+              <p>Unlimited App Usage</p>
+              <p class="lack-function">Priority Listing</p>
+              <p class="lack-function">Super Likes</p>
+              <div class="d-grid">
+                <button class="btn btn-outline-dark btn-lg" type="button">
+                  Sign Up
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="card h-100">
+            <div class="card-header">
+              <h3>British</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">$19 / mo</h2>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+              <p class="lack-function">Priority Listing</p>
+              <p class="lack-function">Super Likes</p>
+              <div class="d-grid">
+                <button class="btn btn-dark btn-lg" type="button">
+                  Sign Up
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card h-100">
+            <div class="card-header">
+              <h3>Ragdoll</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">$29 / mo</h2>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+              <p class="bonus-function">Priority Listing</p>
+              <p class="bonus-function">Super Likes</p>
+              <div class="d-grid">
+                <button class="btn btn-dark btn-lg" type="button">
+                  Sign Up
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Action -->
+
+    <section class="colored-section" id="cta">
+      <div class="container-fluid">
+        <h3 class="bigger-heading">
+          Find the True Love or Friend for Your Cat's Today.
+        </h3>
+        <button class="download-button btn btn-lg btn-dark" type="button">
+          <i class="fa-brands fa-apple"></i> Download
+        </button>
+        <button class="download-button btn btn-lg btn-light" type="button">
+          <i class="fa-brands fa-google-play"></i> Download
+        </button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="white-section" id="footer">
+      <div class="container-fluid">
+        <i class="fa-brands fa-twitter media-icon"></i>
+        <i class="fa-brands fa-facebook media-icon"></i>
+        <i class="fa-brands fa-instagram media-icon"></i>
+        <i class="fa-brands fa-github media-icon"></i>
+        <i class="fa-solid fa-envelope media-icon"></i>
+        <p>Copyright © 2022 Kewin Pyza</p>
+      </div>
+    </footer>
+  </body>
+</html>
