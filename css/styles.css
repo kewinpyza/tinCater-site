@@ -109,25 +109,25 @@ p {
   color: #e5344f;
 }
 
-/* Testimonials Section  */
+/* Reviews Section  */
 
-#testimonials {
-  background-color: #d8786c;
+#reviews {
+  background-color: #e48d82;
 }
 
-.testimonial-text {
+.review-text {
   font-size: 3rem;
   line-height: 1.5;
 }
 
-.testimonial-image {
+.review-image {
   width: 11%;
   border-radius: 50%;
   margin: 20px;
 }
 
 #press {
-  background-color: #d8786c;
+  background-color: #e48d82;
   padding-bottom: 3%;
 }
 
